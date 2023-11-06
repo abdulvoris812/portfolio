@@ -1,0 +1,39 @@
+.hero6-d {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -140px;
+}
+
+.hero6_card2-d {
+  position: relative;
+  top: -85px;
+}
+
+.hero6_img-d,
+.hero6_img1-d,
+.hero6_img2-d, 
+.hero6_img3-d {
+  display: block;
+}
+
+.hero6_img2-d {
+  position: relative;
+  left: 100px;
+}
+
+.hero6_img3-d {
+  position: relative;
+  right: 100px;
+}
+
+.hero6_img1-d {
+  position: relative;
+  top: 100px;
+}
+
+@media (max-width:1205px) {
+  .hero-box6-d{
+    display: none;
+  }
+}

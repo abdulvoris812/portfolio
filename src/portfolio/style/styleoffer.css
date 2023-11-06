@@ -1,0 +1,283 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+.body-o {
+	background-color: white;
+}
+
+.container-offer {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header-offer {
+	width: 100%;
+	height: 650px;
+	background-image: url(../img/Offer backround.png);
+	background-size: cover;
+}
+
+.header-inner-offer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+}
+
+.header-inner__ul-offer {
+	display: flex;
+}
+
+.li-offer {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(29, 31, 35, 0.7);
+	padding: 0 30px;
+}
+
+.btnimg-offer {
+	margin-right: 25px;
+}
+
+.burger-offer {
+	display: none;
+}
+
+.burger-offer span {
+	width: 25px;
+	height: 4px;
+	background-color: #d9534f;
+	border-radius: 10px;
+	display: block;
+}
+
+.burger-offer span:nth-child(2) {
+	margin: 3px 0;
+}
+
+.section-offer {
+	padding: 70px 0;
+	text-align: center;
+}
+
+.section-title-offer {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 60px;
+	color: #1d1f23;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.section-title-offer span {
+	color: #f6973f;
+}
+
+.section-text-offer {
+	font-size: 18px;
+	line-height: 26px;
+	color: #1d1f23;
+	max-width: 40%;
+	margin: 10px auto;
+}
+
+.section-btn-offer {
+	width: 177px;
+	height: 58px;
+	background: #f6973f;
+	border-radius: 50px;
+	color: white;
+	font-weight: 900;
+	border-width: 0;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.ecommerce-cards-offer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cards-offer {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.card-offer {
+	width: 48%;
+	margin: 10px 0;
+	padding: 30px 20px;
+	border-radius: 8px;
+	transition: all 0.2s ease;
+}
+
+.card__title-offer {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 35px;
+	color: #1d1f23;
+}
+
+.card__text-offer {
+	font-size: 16px;
+	line-height: 20px;
+	color: #989898;
+}
+
+.ecommerce-cards__image-offer {
+	width: 380px;
+}
+
+.ecommerce-cards__btn-offer {
+	width: 184px;
+	height: 58px;
+	left: 119px;
+	top: 1542px;
+	background: #ef4358;
+	border-radius: 50px;
+	border-width: 0;
+	color: white;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+/* Resposive */
+
+@media (max-width: 920px) {
+	.header-inner__ul-offer,
+	.li-offer {
+		display: none;
+	}
+
+	.burger-offer {
+		display: block;
+	}
+
+	.hero-offer {
+		margin: 200px 0;
+	}
+}
+
+@media (max-width: 800px) {
+	.hero-box-offer {
+		margin: 80px;
+	}
+}
+
+@media (max-width: 740px) {
+	.section-title-offer {
+		font-size: 38px;
+	}
+	.section-text-offer {
+		font-size: 15px;
+	}
+
+	.card-offer {
+		margin: 50px auto;
+	}
+
+	.hero--offer {
+		margin-top: 100px;
+	}
+
+	.section-btn-offer {
+		width: 155px;
+		height: 50px;
+	}
+}
+
+@media (max-width: 600px) {
+	.section-title-offer {
+		font-size: 32px;
+		line-height: 45px;
+	}
+	.section-text-offer {
+		font-size: 13px;
+		line-height: 20px;
+	}
+
+	.section-btn-offer {
+		width: 145px;
+		height: 47px;
+	}
+}
+
+@media (max-width: 500px) {
+	.section-title-offer {
+		font-size: 28px;
+		line-height: 42px;
+		max-width: 100%;
+	}
+	.section-text-offer {
+		font-size: 10px;
+		line-height: 18px;
+		max-width: 100%;
+	}
+
+	.section-btn-offer {
+		width: 145px;
+		height: 47px;
+	}
+}
+
+@media (max-width: 450px) {
+	.hero-box-offer {
+		display: none;
+	}
+}
+
+@media (max-width: 280px) {
+	.btnimg-offer {
+		display: none;
+	}
+}
+@media (max-width: 1000px) {
+	.ecommerce-cards-offer {
+		align-items: flex-start;
+	}
+	.ecommerce-cards__image-offer {
+		margin-top: 10px;
+		width: 38%;
+	}
+}
+
+@media (max-width: 620px) {
+	.ecommerce-cards-offer {
+		flex-wrap: wrap;
+	}
+	.cards {
+		width: 100%;
+	}
+
+	.ecommerce-cards__image-offer {
+		margin: 0 auto;
+		width: 50%;
+	}
+}
+
+@media (max-width: 500px) {
+	.ecommerce-cards__image-offer {
+		width: 80%;
+	}
+}
+
+@media (max-width: 400px) {
+	.card-offer {
+		width: 100%;
+	}
+
+	.ecommerce-cards__image-offer {
+		width: 100%;
+	}
+}

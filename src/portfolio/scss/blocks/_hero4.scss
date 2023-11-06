@@ -1,0 +1,45 @@
+/** @format */
+
+.hero-box4-d {
+	text-align: center;
+}
+
+.hero4-d {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.hero4_img-d {
+	display: block;
+	width: 350px;
+	height: 300px;
+}
+
+.hero4_btn-d {
+	background: linear-gradient(
+		2.79deg,
+		#f35f2f -13.68%,
+		rgba(243, 95, 47, 0.75) 121.16%
+	);
+  color: #ffffff;
+  border-width: 0;
+	opacity: 0.85;
+	border-radius: 5px;
+  padding: 12px 22px;
+  cursor: pointer;
+}
+
+@media (max-width: 730px) {
+	.hero4_img-d {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 345px) {
+	.hero4_img-d {
+		width: 290px;
+		height: 240px;
+	}
+}

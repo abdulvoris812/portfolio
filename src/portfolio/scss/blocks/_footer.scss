@@ -1,0 +1,37 @@
+/** @format */
+
+.footer-inner-d {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo2-d {
+  cursor: pointer;
+}
+
+.ul-d {
+  margin-top: 25px;
+}
+
+.f-icon-d {
+	margin-left: 10px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+
+.footer-title-d {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16px;
+	color: #3d3d3f;
+}
+
+.li-d {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 14px;
+	color: #646464;
+  margin: 15px 0;
+}
