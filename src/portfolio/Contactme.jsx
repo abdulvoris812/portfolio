@@ -31,7 +31,7 @@ const Contact = () => {
 						<div className='container'>
 							<div className='header-inner'>
 								<a className='logo' href='/contact'>
-									<h2>Contact</h2>
+									<h2>MyPo</h2>
 								</a>
 								<button
 									className={card ? "burger" : "burger btn_close"}
@@ -66,7 +66,7 @@ const Contact = () => {
 								<h1 className='about-title'>Contact Me</h1>
 								<div className='icon-div'>
 									<div className='icon-box'>
-										<Link to={"https://t.me//abdulvoris_812 	 	"}>
+										<Link target="_blank" to={"https://t.me//abdulvoris_812"}>
 											<img
 												src={tg}
 												alt='telegram'
@@ -76,7 +76,7 @@ const Contact = () => {
 										<p className='icon-title'>Telegaram Link</p>
 									</div>
 									<div className='icon-box'>
-										<Link to={"https://www.instagram.com/abd_ulvoris812"}>
+										<Link target="_blank" to={"https://www.instagram.com/abd_ulvoris812"}>
 											<img
 												src={ins}
 												alt='telegram'
@@ -86,7 +86,7 @@ const Contact = () => {
 										<p className='icon-title'>Instagram Link</p>
 									</div>
 									<div className='icon-box'>
-										<Link to={"https://vercel.com/abdulvoris812s-projects/figma-project"}>
+										<Link target="_blank" to={"https://vercel.com/abdulvoris812s-projects/figma-project"}>
 											<img
 												src={ver}
 												alt='telegram'
@@ -96,7 +96,7 @@ const Contact = () => {
 										<p className='icon-title'>Vercel Link</p>
 									</div>
 									<div className='icon-box'>
-										<Link to={"https://github.com/abdulvoris812"}>
+										<Link target="_blank" to={"https://github.com/abdulvoris812"}>
 											<img
 												src={git}
 												alt='telegram'

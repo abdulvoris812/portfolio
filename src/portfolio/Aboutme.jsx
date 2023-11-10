@@ -27,7 +27,7 @@ const Aboutme = () => {
 						<div className='container'>
 							<div className='header-inner'>
 								<a className='logo' href='/about'>
-									<h2>About</h2>
+									<h2>MyPo</h2>
 								</a>
 								<button
 									className={card ? "burger" : "burger btn_close"}
@@ -40,16 +40,16 @@ const Aboutme = () => {
 								<ul
 									className={card ? "nav-list3" : "nav-list3 nav-list3__open"}
 								>
-									<NavLink to={"/"} className='nav-item3'>
+									<NavLink to={"/"} className='nav-item2'>
 										Home
 									</NavLink>
-									<NavLink to={"/project"} className='nav-item3'>
+									<NavLink to={"/project"} className='nav-item2'>
 										Project
 									</NavLink>
-									<NavLink to={"/about"} className='nav-item3'>
+									<NavLink to={"/about"} className='nav-item2'>
 										About
 									</NavLink>
-									<NavLink to={"/contact"} className='nav-item3'>
+									<NavLink to={"/contact"} className='nav-item2'>
 										Contact
 									</NavLink>
 								</ul>
@@ -63,7 +63,7 @@ const Aboutme = () => {
 								<br />
 								<p className='about-text'>
 									I`m currently in school and learning website development at
-									<Link to={"https://hokimakademiyasi.uz"}>
+									<Link target="_blank" to={"https://hokimakademiyasi.uz"}>
 										<span className='as'> DIGITAL CITY. </span>
 									</Link>
 									<span className='as2'>DIGITAL CITY.</span>

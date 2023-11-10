@@ -38,7 +38,10 @@ const HomePage = () => {
 									<span></span>
 									<span></span>
 								</button>
-								<ul className={card ? "nav-list " : "nav-list nav-list__open"}>
+								<ul className={card ? "nav-list " : "nav-list nav-list__open"}>ё
+									<NavLink to={"/"} className='nav-item'>
+										Home
+									</NavLink>
 									<NavLink to={"/project"} className='nav-item'>
 										Project
 									</NavLink>

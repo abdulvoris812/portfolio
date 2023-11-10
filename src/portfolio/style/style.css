@@ -59,7 +59,8 @@ button {
 header {
 	width: 100%;
 	padding: 15px;
-	background-color: rgba(255, 252, 252, 0.137);
+	background-color: rgba(255, 255, 255, 0.135);
+	/* backdrop-filter: blur(8px); */
 	position: fixed;
 	top: 0;
 	z-index: 99;
@@ -441,6 +442,7 @@ header {
 	width: 100%;
 	padding: 15px;
 	background-color: rgba(0, 0, 0, 0.416);
+	/* backdrop-filter: blur(8px); */
 	position: fixed;
 	top: 0;
 	z-index: 99;
@@ -1031,6 +1033,11 @@ header {
 		100% {
 			transform: translateY(0);
 		}
+	}
+
+  .c-icon:hover {
+		transform: none;
+		border-radius: 50%;
 	}
 }
 

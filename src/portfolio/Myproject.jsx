@@ -31,7 +31,7 @@ const Myproject = () => {
 						<div className='container'>
 							<div className='header-inner'>
 								<a className='logo' href='/project'>
-									<h2>Project</h2>
+									<h2>MyPo</h2>
 								</a>
 								<button
 									className={card ? "burger" : "burger btn_close"}
@@ -68,7 +68,7 @@ const Myproject = () => {
 									<div className='p-img_div'>
 										<img src={p2} className='p-img' />
 										<h3 className='p-title'>Design Maket</h3>
-										<Link to={"/designproject"}>
+										<Link target="_blank" to={"/designproject"}>
 											<button className='p-btn'>More</button>
 										</Link>
 										<div className='spand'>
@@ -83,7 +83,7 @@ const Myproject = () => {
 									<div className='box'>
 										<img src={p1} className='p-img2' />
 										<h3 className='p-title'>Offer Maket</h3>
-										<Link to={"/offerproject"}>
+										<Link target="_blank" to={"/offerproject"}>
 											<button className='p-btn'>More</button>
 										</Link>
 									</div>
@@ -91,7 +91,7 @@ const Myproject = () => {
 										{" "}
 										<img src={p4} className='p-img2' />
 										<h3 className='p-title'>NFT Maket</h3>
-										<Link to={"/nftproject"}>
+										<Link target="_blank" to={"/nftproject"}>
 											<button className='p-btn'>More</button>
 										</Link>
 									</div>
