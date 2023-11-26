@@ -62,7 +62,7 @@ const Aboutme = () => {
 								<h1 className='about-title'>About Me</h1>
 								<br />
 								<p className='about-text'>
-									I`m currently in school and learning website development at
+									I`m currently in school and learning website development at <br />
 									<Link target="_blank" to={"https://hokimakademiyasi.uz"}>
 										<span className='as'> DIGITAL CITY. </span>
 									</Link>
